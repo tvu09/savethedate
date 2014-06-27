@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset= "utf-8">
+    <title>Save The Date | Contact Information</title>
+    <style>
+        html{
+            background-color: #B38481;
+            margin: 10px 20px 10px 20px;
+        }
+        
+        body{
+            font-family: georgia;
+        }
+        
+        h1{
+            text-transform: uppercase;
+            font-family: tahoma;
+            font-weight: 100;
+            font-size: 60px;
+            color: purple;
+        }
+        
+        fieldset{
+            width: 850px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    
+    <h1>Save the Date!</h1>
+    
+    <fieldset>
+        <legend><h2>Do you think you will be joining us at our wedding and reception?</h2></legend>
+        <label><input type="radio" name="yes" value="yes"></input>Yes</label>
+        <label><input type="radio" name="no" value="no"></input>No</label>
+        <label><input type="radio" name="maybe" value="maybe"></input>Maybe</label>
+    </fieldset>
+    
+    <br>
+    
+    <fieldset class="two">
+        <legend><h2>What is the best way to keep in touch?</h2></legend>
+        <label><b>Name:</b><br>
+        <input type="text" name="name"></label><br><br>
+        <label><b>Mailing Address:</b><br>
+        <textarea name="mailaddress" cols="20" rows="4"></textarea><br><br>
+        <label><b>Email Address:</b><br>
+        <input type="email" name="email"></label><br><br>            
+        <form method="post" action="mailto:thuvu009@gmail.com" >
+        <input type="submit" value="Submit Form" /> 
+        </form>
+    </fieldsiet>
+</body>
+</html>
