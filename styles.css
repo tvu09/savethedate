@@ -1,0 +1,29 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+html{
+    background-color: #B38481;
+}
+
+body{ 
+    font-family: 'Pacifico', cursive;
+    color: #ee00ff;
+    padding: 50px;
+    border: 4px double purple;
+    border-color: purple;
+    border-width: 5px;
+    text-align: center;
+    margin: 10px 170px 10px 170px;
+}
+
+p.separator{
+    border-top: double;
+    border-color: purple;
+    width: 600px;
+    margin: 10px auto 10px auto;
+}
+
+p.body{
+    border: thin;
+    background-color: #B38481;
+}
+
